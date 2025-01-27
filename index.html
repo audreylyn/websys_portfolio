@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="./assets/logo-2.png" type="image/svg+xml">
+    <link rel="stylesheet" href="./css/style-utilities.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="header-container">
+        <div class="logo">
+          <a href="#"><img src="./assets/logo.png" alt="logo" /></a>
+        </div>
+
+        <button
+        class="mobile-nav-toggle wrapper"
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+      >
+        <span class="visually-hidden">Toggle navigation</span>
+        <div class="line-menu half start"></div>
+        <div class="line-menu"></div>
+        <div class="line-menu half end"></div>
+      </button>
+
+        <nav class="primary-navigation">
+          <ul class="nav-list">
+            <li><a class="text-rose fs-400" href="#">Home</a></li>
+            <li><a class="text-rose fs-400" href="#interests">About</a></li>
+            <li><a class="text-rose fs-400" href="#portfolio">Portfolio</a></li>
+            <li>
+              <a href="#contact" class="fw-regular fs-300 contact-button"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+        <section id="hero" class="container mt-sm">
+              <div class="flow info-greet">
+                <div class="student-info text-grey uppercase fs-400 fw-regular">IT STUDENT | BSIT 2-2</div>
+                <h1 class="greeting fs-600 fw-bold text-rose">Greetings, I'm Audreylyn</h1>
+                <p class="description text-grey fs-300 fw-light">
+                  Within this portfolio, I present to you a collection <br>showcasing <span class="text-rose">my
+                    projects, skills, and passions.</span>
+                </p>
+                <a href="#portfolio">
+                    <button class="hero-btn">
+                        <span class="folderContainer">
+                            <svg class="fileBack" width="146" height="113" viewBox="0 0 146 113" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 4C0 1.79086 1.79086 0 4 0H50.3802C51.8285 0 53.2056 0.627965 54.1553 1.72142L64.3303 13.4371C65.2799 14.5306 66.657 15.1585 68.1053 15.1585H141.509C143.718 15.1585 145.509 16.9494 145.509 19.1585V109C145.509 111.209 143.718 113 141.509 113H3.99999C1.79085 113 0 111.209 0 109V4Z" fill="url(#paint0_linear_117_4)"/>
+                                <defs>
+                                    <linearGradient id="paint0_linear_117_4" x1="0" y1="0" x2="72.93" y2="95.4804" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="hsl(var(--clr-light))"/>
+                                        <stop offset="1" stop-color="hsl(var(--clr-grey))"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <svg class="filePage" width="88" height="99" viewBox="0 0 88 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="88" height="99" fill="url(#paint0_linear_117_6)"/>
+                                <defs>
+                                    <linearGradient id="paint0_linear_117_6" x1="0" y1="0" x2="81" y2="160.5" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="hsl(var(--clr-white))"/>
+                                        <stop offset="1" stop-color="hsl(var(--clr-grey))"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                            <svg class="fileFront" width="160" height="79" viewBox="0 0 160 79" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.29306 12.2478C0.133905 9.38186 2.41499 6.97059 5.28537 6.97059H30.419H58.1902C59.5751 6.97059 60.9288 6.55982 62.0802 5.79025L68.977 1.18034C70.1283 0.410771 71.482 0 72.8669 0H77H155.462C157.87 0 159.733 2.1129 159.43 4.50232L150.443 75.5023C150.19 77.5013 148.489 79 146.474 79H7.78403C5.66106 79 3.9079 77.3415 3.79019 75.2218L0.29306 12.2478Z" fill="url(#paint0_linear_117_5)"/>
+                                <defs>
+                                    <linearGradient id="paint0_linear_117_5" x1="38.7619" y1="8.71323" x2="66.9106" y2="82.8317" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="hsl(var(--clr-rose))"/>
+                                        <stop offset="1" stop-color="hsl(var(--clr-grey))"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </span>
+                        <p class="text">See My Works</p>
+                    </button>
+                </a>
+              </div>
+
+              <div class="hero-banner">
+                <img src="./assets/hero_section.png" alt="hero" />
+              </div>
+        </section>
+
+        <section id="interests">
+            <div class="interests-wrapper section-spacing">
+                <img class="wave wave--top" src="assets/wavetop.png" alt="Top wave decoration">
+                
+                <section class="skills">
+                    <div class="skills__header">
+                        <h1 class="skills__title">Areas of Interest</h1>
+                        <p class="skills__subtitle">I'm eager to explore and learn more about these fields.</p>
+                    </div>
+                    
+                    <div class="skills__grid">
+                        <div class="skills__card">
+                            <img class="skills__card-icon" src="assets/2.png" alt="Web Development icon">
+                            <h2 class="skills__card-title">Web Development</h2>
+                            <p class="skills__card-description">Improve my web development skills and build functional websites.</p>
+                        </div>
+                        
+                        <div class="skills__card">
+                            <img class="skills__card-icon" src="assets/1.png" alt="Programming icon">
+                            <h2 class="skills__card-title">Programming</h2>
+                            <p class="skills__card-description">Learn different programming languages and develop creative projects.</p>
+                        </div>
+                        
+                        <div class="skills__card">
+                            <img class="skills__card-icon" src="assets/3.png" alt="Android Development icon">
+                            <h2 class="skills__card-title">Android Development</h2>
+                            <p class="skills__card-description">Explore Android development and work on simple mobile apps.</p>
+                        </div>
+                    </div>
+                </section>
+                
+                <img class="wave wave--bottom" src="assets/wavebottom.png" alt="Bottom wave decoration">
+            </div>
+        </section>
+
+        <section class="flex section-spacing" id="about">
+            <div class="about__image-container">
+                <img class="about__image" src="assets/about_aud.png" alt="Audreylyn's profile picture">
+            </div>
+        
+            <div class="about__content">
+                
+                <h1 class="about__title text-rose fs-600 uppercase">AUDREYLYN MORAÑA | BSIT 2-2</h1>
+  
+                <div class="about__description">  
+                    <div class="about__overview">
+                        <p class="fs-400 font-italic">(A brief overview of my background and aspirations)</p>
+                    </div>
+                    <ul class="about__experience-list flow-sm">
+                        <li>Graduated from Punturin Elementary School in 2016.</li>
+                        <li>Graduated from high school at Vicente P. Trinidad National High School.</li>
+                        <li>Currently enrolled in BSIT at Pamantasan ng Lungsod ng Valenzuela.</li>
+                        <li>Passionate about tech, web design, and user interfaces.</li>
+                        <li>Aspiring to become a front-end developer and build impactful websites.</li>
+                    </ul>
+                </div>                
+            </div>               
+        </section>
+
+        <section id="cv" class="section-spacing">
+            <div class="cv-wrapper-1">
+                <h1 class="cv-title fs-600 text-white">Curious to learn more about me?</h1>
+                <p class="cv-subtitle fs-400 text-white">Feel free to download my resume.</p>
+            </div>            
+            <div class="cv-wrapper-2">
+                <a target="_blank" rel="noopener" href="./pages/cv.html">
+                    <button class="button-cv">
+                        Download CV
+                    </button>
+                </a>
+            </div>            
+        </section>
+
+
+        <section id="portfolio" class="section-spacing">
+            <h3 class="titles text-rose fs-600 fw-bold">Midterm Lectures/Activities</h3>
+            <br><br>
+            <div class="project-container">
+                <input type="radio" name="slide" id="slide1" checked>
+                <label for="slide1" class="visually-hidden">Slide 1</label>
+                
+                <input type="radio" name="slide" id="slide2">
+                <label for="slide2" class="visually-hidden">Slide 2</label>
+                
+                <input type="radio" name="slide" id="slide3">
+                <label for="slide3" class="visually-hidden">Slide 3</label>
+        
+                <div class="main-card">
+                    <div class="cards" id="slide1">
+                        <div class="project-card">
+                            <div class="project-card-side project-card-side1">
+                                <font size="5">Lecture/Seatwork</font>
+                                <p class="margin-block-sm" style="--spacing-sm: 0.5rem;">
+                                    Using table, rows, and columns
+                                </p>
+                                <div class="project-links mt-sm" style="--spacing-sm: 1rem;">
+                                    <a href="#">Lecture</a>
+                                    <a href="#">Seatwork</a>
+                                </div>
+                            </div>
+                            <div class="project-card-side project-card-side2">
+                                <h2>001</h2>
+                            </div>
+                        </div>
+    
+                        <div class="project-card">
+                            <div class="project-card-side project-card-side1">
+                                
+                                <font size="5">Lecture/Seatwork</font>
+                                <p class="margin-block-sm" style="--spacing-sm: 0.5rem;">
+                                    My Guestbook and Color Frameset
+                                </p>
+                                <div class="project-links mt-sm" style="--spacing-sm: 1rem;">
+                                    <a href="#">Lecture</a>
+                                    <a href="#">Seatwork</a>
+                                </div>
+                            </div>
+                            <div class="project-card-side project-card-side2">
+                                <h2>002</h2>
+                            </div>
+                        </div>
+    
+                        <div class="project-card">
+                            <div class="project-card-side project-card-side1">
+                                
+                                <font size="5">Quiz/Test</font>
+                                <p class="margin-block-sm" style="--spacing-sm: 0.5rem;">
+                                    Word Hunt and Price Table
+                                </p>
+                                <div class="project-links mt-sm" style="--spacing-sm: 1rem;">
+                                    <a href="#">Lecture</a>
+                                    <a href="#">Seatwork</a>
+                                </div>
+                            </div>
+                            <div class="project-card-side project-card-side2">
+                                <h2>003</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="main-card">
+                    <div class="cards" id="slide2">
+                        <div class="project-card">
+                            <div class="project-card-side project-card-side1">
+                                
+                                <font size="5">Lecture/Seatwork</font>
+                                <p class="margin-block-sm" style="--spacing-sm: 0.5rem;">
+                                    My Guestbook and Color Frameset
+                                </p>
+                                <div class="project-links mt-sm" style="--spacing-sm: 1rem;">
+                                    <a href="#">Lecture</a>
+                                    <a href="#">Seatwork</a>
+                                </div>
+                            </div>
+                            <div class="project-card-side project-card-side2">
+                                <h2>004</h2>
+                            </div>
+                        </div>
+    
+                        <div class="project-card">
+                            <div class="project-card-side project-card-side1">
+                                
+                                <font size="5">Quiz/Test</font>
+                                <p class="margin-block-sm" style="--spacing-sm: 0.5rem;">
+                                    Word Hunt and Price Table
+                                </p>
+                                <div class="project-links mt-sm" style="--spacing-sm: 1rem;">
+                                    <a href="#">Quiz #1</a>
+                                    <a href="#">Midterm Test</a>
+                                </div>
+                            </div>
+                            <div class="project-card-side project-card-side2">
+                                <h2>005</h2>
+                            </div>
+                        </div>
+    
+                        <div class="project-card">
+                            <div class="project-card-side project-card-side1">
+                                
+                                <font size="5">Assignments</font>
+                                <p class="margin-block-sm" style="--spacing-sm: 0.5rem;">
+                                    My Profile and Design Lists
+                                </p>
+                                <div class="project-links mt-sm" style="--spacing-sm: 1rem;">
+                                    <a href="#">Assignment 1</a>
+                                    <a href="#">Assignment 2</a>
+                                </div>
+                            </div>
+                            <div class="project-card-side project-card-side2">
+                                <h2>006</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="main-card">
+                    <div class="cards" id="slide3">
+                        <div class="project-card">
+                            <div class="project-card-side project-card-side1">
+                                
+                                <font size="5">Lecture/Seatwork</font>
+                                <p class="margin-block-sm" style="--spacing-sm: 0.5rem;">
+                                    Lorem ipsum dolor
+                                <div class="project-links mt-sm" style="--spacing-sm: 1rem;">
+                                    <a href="#">Lecture</a>
+                                    <a href="#">Seatwork</a>
+                                </div>
+                            </div>
+                            <div class="project-card-side project-card-side2">
+                                <h2>007</h2>
+                            </div>
+                        </div>
+    
+                        <div class="project-card">
+                            <div class="project-card-side project-card-side1">
+                                
+                                <font size="5">Lecture/Seatwork</font>
+                                <p class="margin-block-sm" style="--spacing-sm: 0.5rem;">
+                                    Lorem ipsum dolor
+                                <div class="project-links mt-sm" style="--spacing-sm: 1rem;">
+                                    <a href="#">Lecture</a>
+                                    <a href="#">Seatwork</a>
+                                </div>
+                            </div>
+                            <div class="project-card-side project-card-side2">
+                                <h2>008</h2>
+                            </div>
+                        </div>
+    
+                        <div class="project-card">
+                            <div class="project-card-side project-card-side1">
+                                
+                                <font size="5">Lecture/Seatwork</font>
+                                <p class="margin-block-sm" style="--spacing-sm: 0.5rem;">
+                                    Lorem ipsum dolor
+                                </p>
+                                <div class="project-links mt-sm" style="--spacing-sm: 1rem;">
+                                    <a href="#">Lecture</a>
+                                    <a href="#">Seatwork</a>
+                                </div>
+                            </div>
+                            <div class="project-card-side project-card-side2">
+                                <h2>009</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                <br>
+                <div class="project-slide-navigation">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                </div><br>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="footer-content">
+          <div class="footer-info flow">
+            <h3 class="fs-400 fw-bold">Contact Me</h3>
+            <p class="fs-300 fw-light">Thank you for taking the time to explore my portfolio. If you have any inquiries or just want to connect, feel free to reach out to me.</p>
+            <div class="icons tell">
+              <img src="assets/tell.png" alt="icon phone">
+              <p class="numbers">09201063627</p>
+            </div>
+            <div class="icons">
+              <img src="assets/e-mail.png" alt="icon email">
+              <p>audreylynmorana1504@gmail.com</p>
+            </div>
+          </div>
+    
+          <div class="footer-info">
+            <h3 class="fs-400 fw-bold">Inquiries:</h3>
+            <form class="form" action="https://api.web3forms.com/submit" method="POST">
+
+            <label>
+                <input required="" placeholder="" type="text" class="input" name="name">
+                <span>name</span>
+            </label> 
+                
+            <label>
+                <input required="" placeholder="" type="email" class="input" name="email">
+                <span>email</span>
+            </label> 
+              
+            <label>
+                <input required="" type="text" class="input" placeholder="" name="inquiry">
+                <span>inquiry</span>
+            </label>
+              
+              <input type="hidden" name="access_key" value="57fc7d5c-b1c2-422a-b114-5e86bc9a84e6">
+              
+              <button class="fancy" type="submit">
+                <span class="top-key"></span>
+                <span class="text">submit</span>
+                <span class="bottom-key-1"></span>
+                <span class="bottom-key-2"></span>
+              </button>
+            </form>
+          </div>
+    
+          <div class="footer-info">
+            <div class="social-card">
+              <div class="social-links-container">
+                <a class="social-link" rel="noopener" target="_blank" href="https://www.facebook.com/audreylyn.morana">
+                  <img class="img-social-networks" src="assets/icons8-meta-32.png" alt="Facebook">
+                </a>
+                <a class="social-link" rel="noopener" target="_blank" href="https://pin.it/54j0ifG1f">
+                  <img class="img-social-networks" src="assets/icons8-pinterest.png" alt="Pinterest">
+                </a>
+                <a class="social-link" rel="noopener" target="_blank" href="https://www.reddit.com/user/ManyAd5324/">
+                  <img class="img-social-networks" src="assets/icons8-reddit-32.png" alt="Reddit">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+            <hr class="copyright-divider">
+            <div class="copyright-content">
+                <p class="developer-credit">Developed by Audreylyn Moraña | BSIT 2-2 Academic Project</p>
+                <p class="copyright-statement font-italic">© 2024 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

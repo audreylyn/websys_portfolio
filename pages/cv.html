@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audreylyn Moraña - Modern CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style-utilities.css">
+    <link rel="stylesheet" href="../css/cv.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <a href="../index.html" class="back-button button-cv">
+    <i class="fas fa-chevron-left"></i>
+    <span>Go Back</span>
+    </a>
+    <section class="cv-container bg-white mt-lg" style="--mt-lg: 5rem;">
+        <header class="header flow" data-spacing="md">
+            <button id="export-pdf" class="button-pdf">
+                <i class="fas fa-file-pdf saveicon"></i> <span>Download PDF</span>
+             </button>
+            <img src="../assets/cv-img.png" alt="Audreylyn Moraña" class="profile-img">
+            <h1 class="name fw-regular">Audreylyn Moraña</h1>
+            <p class="title">BSIT Student & Front-End Developer</p>
+        </header>
+
+        <div class="main-grid">
+            <div class="left-column">
+                <section class="flow section-spacing">
+                    <h2 class="section-title fw-bold">Contact</h2>
+                    <ul class="contact-list">
+                        <li>
+                            <i class="fas fa-phone icon"></i>
+                            <span>+63 920 106 3627</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope icon"></i>
+                            <span>audreylynmorana1504@gmail.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt icon"></i>
+                            <span>Punturin, Valenzuela City</span>
+                        </li>
+                        <li>
+                            <i class="fab fa-github icon"></i>
+                            <span>github.com/audreylyn</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="flow section-spacing">
+                    <h2 class="section-title fw-bold">Skills</h2>
+                    <div class="skills">
+                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">MySQL/MSServer</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Project Management</span>
+                    </div>
+                </section>
+
+                <section class="flow section-spacing">
+                    <h2 class="section-title fw-bold">Education</h2>
+                    <div class="flow-sm">
+                        <p class="fw-bold">BS in Information Technology</p>
+                        <p class="experience-company">Pamantasan ng Lungsod ng Valenzuela</p>
+                        <p class="experience-date">2022 - Present</p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="right-column">
+                <section class="flow section-spacing">
+                    <h2 class="section-title fw-bold">Courses & Workshops</h2>
+                    <div class="flow">
+                        <div class="experience-item">
+                            <p class="experience-date">March 2023</p>
+                            <h3 class="experience-title">Modern Web Development Fundamentals</h3>
+                            <p class="experience-company">Coursera</p>
+                            <p class="text-grey">
+                                Comprehensive course covering HTML5, CSS3, and JavaScript ES6+.
+                                Completed hands-on projects including responsive web design and API integration.
+                            </p>
+                            <a href="path/to/certificate1.pdf" class="certification-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-file-pdf"></i>
+                                View Certification
+                            </a>
+                        </div>
+            
+                        <div class="experience-item">
+                            <p class="experience-date">August 2022</p>
+                            <h3 class="experience-title">UI/UX Design Masterclass</h3>
+                            <p class="experience-company">Interaction Design Foundation</p>
+                            <p class="text-grey">
+                                Learned design thinking principles, prototyping with Figma, and user testing methodologies.
+                                Created a complete mobile app design from concept to interactive prototype.
+                            </p>
+                            <a href="path/to/certificate2.pdf" class="certification-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-file-pdf"></i>
+                                View Certification
+                            </a>
+                        </div>
+            
+                        <div class="experience-item">
+                            <p class="experience-date">January 2023</p>
+                            <h3 class="experience-title">Cloud Computing Essentials</h3>
+                            <p class="experience-company">AWS Training</p>
+                            <p class="text-grey">
+                                Fundamentals of cloud infrastructure, AWS services overview, and basic cloud architecture design.
+                                Completed hands-on labs with EC2 and S3 services.
+                            </p>
+                            <a href="path/to/certificate3.pdf" class="certification-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-file-pdf"></i>
+                                View Certification
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            
+                <section class="flow section-spacing">
+                    <h2 class="section-title fw-bold">Projects</h2>
+                    <div class="experience-item">
+                        <h3 class="experience-title">E-Learning Platform</h3>
+                        <p class="experience-company">Capstone Project</p>
+                        <p class="text-grey">
+                            Led development of a full-stack e-learning platform using React and Node.js.
+                            Implemented user authentication and course management features.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/cv.js"></script>
+</body>
+</html>

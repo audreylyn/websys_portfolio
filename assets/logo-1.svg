@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <!-- Primary Version (Rose & Grey) -->
+    <g transform="translate(100, 50) scale(5)">
+        <!-- Main A -->
+        <path d="M50 10 L90 110 H70 L60 85 H40 L30 110 H10 L50 10ZM50 30 L40 70H60 L50 30Z"
+              fill="#BC8F8F"/>
+        <!-- Accent Line -->
+        <line x1="25" y1="120" x2="75" y2="120"
+              stroke="#727272"
+              stroke-width="3"/>
+    </g>
+</svg>
